@@ -10,7 +10,6 @@ pipeline {
             }
             steps {
               sh '''
-              echo "With docker
               ls -la
               node --version
               npm --version
